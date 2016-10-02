@@ -10,7 +10,7 @@ describe('<BackToTopLink/>', () => {
   it('scrolls to the top of the page', () => {
     const wrapper = shallow(<BackToTopLink/>);
     const wrapperInstance = wrapper.instance();
-    let handleClickStub = stub(wrapperInstance, '_scrollToTop');
+    const handleClickStub = stub(wrapperInstance, '_scrollToTop');
 
     wrapperInstance.forceUpdate();
     wrapper.update();
