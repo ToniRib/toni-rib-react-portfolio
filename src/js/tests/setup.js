@@ -25,13 +25,20 @@ global.React = require('react');
 global.chai = require('chai');
 global.chaiEnzyme = require('chai-enzyme');
 global.enzyme = require('enzyme');
+global.sinon = require('sinon');
+global.sinonChai = require('sinon-chai');
+global.$ = require('jquery');
 
 global.expect = global.chai.expect;
 global.shallow = global.enzyme.shallow;
 global.mount = global.enzyme.mount;
 global.render = global.enzyme.render;
+global.stub = sinon.stub;
+global.spy = sinon.spy;
+global.jQuery = global.$;
 
 global.chai.use(global.chaiEnzyme());
+global.chai.use(global.sinonChai);
 
 function mountToDom(component, options) {
   const settings = $.extend({}, { attachTo: doc.body.firstChild }, options);
