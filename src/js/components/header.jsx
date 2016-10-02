@@ -1,5 +1,6 @@
 import React from 'react';
 import MainImage from './main_image';
+import Navigation from './navigation';
 
 class Header extends React.Component {
   render () {
@@ -7,6 +8,9 @@ class Header extends React.Component {
       <header>
         <div className="row">
           <MainImage />
+        </div>
+        <div className="row">
+          <Navigation />
         </div>
       </header>
     );
