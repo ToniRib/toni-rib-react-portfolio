@@ -1,4 +1,5 @@
 import React from 'react';
+import Biography from './biography/biography';
 import Header from './header/header';
 
 class Application extends React.Component {
@@ -6,6 +7,7 @@ class Application extends React.Component {
     return (
       <div className="container">
         <Header />
+        <Biography />
       </div>
     );
   }
