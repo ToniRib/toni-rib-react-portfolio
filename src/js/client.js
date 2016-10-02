@@ -1,8 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import Layout from './components/layout';
+import Application from './components/application';
+
+require('../css/styles.scss');
 
 const app = document.getElementById('app');
 
-ReactDOM.render(<Layout />, app);
+ReactDOM.render(<Application />, app);

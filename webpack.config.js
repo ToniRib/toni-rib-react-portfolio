@@ -16,6 +16,10 @@ module.exports = {
           presets: ['react', 'es2015'],
           plugins: ['react-html-attrs'],
         }
+      },
+      {
+        test: /\.scss$/,
+        loaders: [ 'style', 'css', 'sass' ]
       }
     ]
   },
