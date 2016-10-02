@@ -1,4 +1,4 @@
-import BackToTopLink from '../../../components/links/back_to_top_link';
+import BackToTopLink from '../../../components/common/back_to_top_link';
 
 describe('<BackToTopLink/>', () => {
   it('renders a div', () => {
