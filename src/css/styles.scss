@@ -85,10 +85,87 @@ a {
   margin-right: 1em;
 }
 
+/* Contact Section */
+.contact-link {
+  margin: 0 0.5em;
+  font-size: 0.8em;
+}
+
+.contact-list {
+  margin: 0 0 2em 0;
+}
+
+.contacts {
+  text-align: center;
+  height: 100%;
+}
+
 /* Main Images */
 .main-img {
   margin-top: 0.5em;
   width: 100%;
+}
+
+/* PNG Image */
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.png-img {
+  display: block;
+  margin: auto;
+}
+
+.max-height-185 {
+  max-height: 185px;
+}
+
+/* Arrow in Bio Section */
+.right-arrow {
+  display: inline-block;
+  position: relative;
+  background: #b21752;
+  height: 8px;
+  width: 70px;
+  vertical-align: middle;
+  margin-top: 55%;
+}
+
+.right-arrow:after {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 100%;
+  top: 50%;
+  margin-top: -16px;
+  width: 0;
+  height: 0;
+  border-top: 16px solid transparent;
+  border-right: 16px solid transparent;
+  border-bottom: 16px solid transparent;
+  border-left: 16px solid #b21752;
+}
+
+.turned-text {
+  color: white;
+  padding: 0.4em 1em;
+}
+
+/* Portfolio */
+.portfolio-text {
+  font-size: 1.7em;
+  color: white;
+  text-align: center;
+}
+
+.box {
+  width: 250px;
+  height: 300px;
+  margin: 20px auto;
+}
+
+.portfolio-row {
+  margin-bottom: 20px;
 }
 
 /* Miscellaneous */
