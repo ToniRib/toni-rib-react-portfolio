@@ -48,6 +48,7 @@
   "devDependencies": {
     "chai": "^3.5.0",
     "chai-enzyme": "^0.5.2",
+    "chai-jq": "0.0.9",
     "enzyme": "^2.4.1",
     "jsdom": "^9.5.0",
     "mocha": "^3.1.0",

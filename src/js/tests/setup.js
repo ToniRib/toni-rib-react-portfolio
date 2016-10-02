@@ -24,6 +24,7 @@ global.navigator = {
 global.React = require('react');
 global.chai = require('chai');
 global.chaiEnzyme = require('chai-enzyme');
+global.chaiJq = require('chai-jq');
 global.enzyme = require('enzyme');
 global.sinon = require('sinon');
 global.sinonChai = require('sinon-chai');
@@ -37,6 +38,7 @@ global.stub = sinon.stub;
 global.spy = sinon.spy;
 global.jQuery = global.$;
 
+global.chai.use(global.chaiJq);
 global.chai.use(global.chaiEnzyme());
 global.chai.use(global.sinonChai);
 
