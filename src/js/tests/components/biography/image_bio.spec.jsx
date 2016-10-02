@@ -16,6 +16,6 @@ describe('<ImageBio />', () => {
   it('renders the coding logo image', () => {
     const wrapper = shallow(<ImageBio />);
 
-    expect(wrapper.find('.coding-img')).to.have.attr('src', './img/coding-logo.svg');
+    expect(wrapper.find('.coding-img')).to.have.attr('src', './img/coding-logo-ruby.svg');
   });
 });

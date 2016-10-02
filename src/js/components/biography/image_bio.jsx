@@ -17,7 +17,7 @@ class ImageBio extends React.Component {
         </div>
         <div className='col-md-3 col-sm-4 col-xs-4'>
           <img className='img-responsive coding-img'
-               src='./img/coding-logo.svg'
+               src='./img/coding-logo-ruby.svg'
                alt='html brackets logo'
           />
           <h4>web developer</h4>
