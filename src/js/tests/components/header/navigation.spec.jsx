@@ -1,4 +1,4 @@
-import Navigation from '../../components/navigation';
+import Navigation from '../../../components/header/navigation';
 
 describe('<Navigation/>', () => {
   it('renders a div', () => {

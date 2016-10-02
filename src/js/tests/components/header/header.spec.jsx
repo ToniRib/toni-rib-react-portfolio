@@ -1,6 +1,6 @@
-import Header from '../../components/header';
-import MainImage from '../../components/main_image';
-import Navigation from '../../components/navigation';
+import Header from '../../../components/header/header';
+import MainImage from '../../../components/header/main_image';
+import Navigation from '../../../components/header/navigation';
 
 describe('<Header/>', () => {
   it('should render a header', () => {

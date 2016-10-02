@@ -1,4 +1,4 @@
-import MainImage from '../../components/main_image';
+import MainImage from '../../../components/header/main_image';
 
 describe('<MainImage/>', () => {
   it('renders an div', () => {
