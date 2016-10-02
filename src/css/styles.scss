@@ -69,6 +69,22 @@ a {
   }
 }
 
+/* Back to Top */
+.arrow-up {
+  width: 0;
+  height: 0;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-bottom: 15px solid #76ff03;
+  display: inline-block;
+}
+
+.back-to-top {
+  display: inline-block;
+  color: #76ff03;
+  margin-right: 1em;
+}
+
 /* Main Images */
 .main-img {
   margin-top: 0.5em;
