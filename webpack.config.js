@@ -10,7 +10,7 @@ module.exports = {
     loaders: [
       {
         test: /\.jsx?$/,
-        exclude: /(node_modules)/,
+        exclude: /(node_modules|bower_components)/,
         loader: 'babel-loader',
         query: {
           presets: ['react', 'es2015'],
@@ -57,6 +57,11 @@ module.exports = {
   },
   resolve: {
     extensions: ['', '.js', '.jsx']
+  },
+  externals: {
+    'cheerio': 'window',
+    'react/lib/ExecutionEnvironment': true,
+    'react/lib/ReactContext': true,
   },
   plugins: debug ? [] : [
     new webpack.optimize.DedupePlugin(),
