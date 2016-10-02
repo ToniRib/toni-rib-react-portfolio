@@ -1,6 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
+import Layout from './components/layout';
+
 const app = document.getElementById('app');
 
-ReactDOM.render(<h1>Toni Rib</h1>, app);
+ReactDOM.render(<Layout />, app);
