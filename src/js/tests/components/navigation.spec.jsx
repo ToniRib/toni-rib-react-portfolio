@@ -1,10 +1,10 @@
 import Navigation from '../../components/navigation';
 
 describe('<Navigation/>', () => {
-  it('renders a nav', () => {
+  it('renders a div', () => {
     const wrapper = shallow(<Navigation/>);
 
-    expect(wrapper).to.have.tagName('nav');
+    expect(wrapper).to.have.tagName('div');
   });
 
   it('renders a link to the bio section', () => {

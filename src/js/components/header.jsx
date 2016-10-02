@@ -6,12 +6,8 @@ class Header extends React.Component {
   render () {
     return (
       <header>
-        <div className="row">
-          <MainImage />
-        </div>
-        <div className="row">
-          <Navigation />
-        </div>
+        <MainImage />
+        <Navigation />
       </header>
     );
   }
