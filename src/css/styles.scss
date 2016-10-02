@@ -1,8 +1,166 @@
+/* Main Styles*/
 body {
   background-color: black;
+  font: 16px 'Ubuntu', sans-serif;
 }
 
+nav {
+  text-align: center;
+  font-size: 1.3em;
+  word-spacing: 1.3em;
+  margin: 0.5em 0;
+}
+
+article,
+header {
+  height: 100%;
+  padding: 0 0.5em;
+}
+
+h2 {
+  font-style: italic;
+  font-size: 3em;
+  color: #27c8cc;
+  margin: 0 0 0.5em 0;
+}
+
+h4 {
+  color: white;
+  text-align: center;
+  vertical-align: bottom;
+}
+
+p {
+  color: white;
+  font-size: 1.2em;
+}
+
+ul {
+  margin: 1em;
+  text-align: center;
+  -webkit-margin-before: 0;
+  -moz-margin-before: 0;
+  -webkit-padding-start: 0;
+  -moz-padding-start: 0;
+}
+
+li {
+  color: #ffea1d;
+  text-decoration: none;
+  display: block;
+  font-size: 1.3em;
+  padding: 0.5em;
+}
+
+/* Links */
+a {
+  text-decoration: none;
+  color: #76ff03;
+  -webkit-transition: color 0.4s ease;
+  -o-transition: color 0.4s ease;
+  -moz-transition: color 0.4s ease;
+  transition: color 0.4s ease;
+  cursor: pointer;
+  cursor: hand;
+
+  &:hover {
+    color: #00e5ff;
+    text-decoration: none;
+  }
+}
+
+/* Main Images */
 .main-img {
   margin-top: 0.5em;
   width: 100%;
+}
+
+/* Miscellaneous */
+.float-right {
+  float: right;
+}
+
+.left-title {
+  text-align: left;
+}
+
+.right-title {
+  text-align: right;
+}
+
+.center {
+  text-align: center;
+}
+
+/* Media Queries */
+@media screen and (min-width: 400px) {
+  li {
+    display: inline;
+  }
+
+  nav {
+    a {
+      margin: 0 0.5em;
+    }
+  }
+}
+
+@media screen and (min-width: 600px) {
+  nav {
+    font-size: 1.8em;
+    word-spacing: 2em;
+    margin: 0.5em 0;
+
+    a {
+      margin: 0 1.5em;
+    }
+  }
+
+  h4 {
+    font-size: 1.3em;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  article,
+  header {
+    height: 100vh;
+  }
+
+  h2 {
+    font-size: 4.5em;
+  }
+
+  nav {
+    font-size: 2em;
+  }
+
+  h4 {
+    font-size: 1.5em;
+  }
+
+  .right-arrow {
+    margin-top: 85%;
+  }
+
+  .box {
+    width: 250px;
+    height: 300px;
+  }
+
+  li {
+    font-size: 1.5em;
+    padding: 1em;
+  }
+
+  ul {
+    margin: 2em;
+  }
+}
+
+@media screen and (max-height: 769px) {
+  article,
+  header {
+    height: 100%;
+  }
 }
