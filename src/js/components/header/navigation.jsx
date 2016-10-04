@@ -1,14 +1,15 @@
 import React from 'react';
+import LinkToSection from './link_to_section';
 import Scroll from '../../scroll';
 
 class Navigation extends React.Component {
   render () {
     return (
-      <div className="row">
+      <div className='row'>
         <nav>
-          <a id='bio-link' onClick={Scroll.toBio}>Bio</a>
-          <a id='portfolio-link' onClick={Scroll.toPortfolio}>Portfolio</a>
-          <a id='contact-link' onClick={Scroll.toContact}>Contact</a>
+          <LinkToSection name='Bio' id='bio-link' clickHandler={Scroll.toBio} />
+          <LinkToSection name='Portfolio' id='portfolio-link' clickHandler={Scroll.toPortfolio} />
+          <LinkToSection name='Contact' id='contact-link' clickHandler={Scroll.toContact} />
         </nav>
       </div>
     );
