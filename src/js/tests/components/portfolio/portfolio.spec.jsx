@@ -12,7 +12,7 @@ describe('<Portfolio />', () => {
   it('includes a section title with the name Portfolio', () => {
     const wrapper = shallow(<Portfolio />);
 
-    expect(wrapper).to.contain(<SectionTitle name='Portfolio' id='portfolio' />)
+    expect(wrapper).to.contain(<SectionTitle name='Portfolio' id='portfolio' location='right' />)
   });
 
   it('includes a link back to the top', () => {
