@@ -1,6 +1,7 @@
 import React from 'react';
 import Biography from './biography/biography';
 import Header from './header/header';
+import Portfolio from './portfolio/portfolio';
 
 class Application extends React.Component {
   render () {
@@ -8,6 +9,7 @@ class Application extends React.Component {
       <div className="container">
         <Header />
         <Biography />
+        <Portfolio />s
       </div>
     );
   }
