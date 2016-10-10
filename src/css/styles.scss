@@ -1,3 +1,12 @@
+/* Zocial */
+.zocial-twitter:before,
+.zocial-github:before,
+.zocial-gmail:before,
+.zocial-linkedin:before {
+  font-family: 'zocial', sans-serif;
+  margin: 0 0.5em 0 0;
+}
+
 /* Main Styles*/
 body {
   background-color: black;
