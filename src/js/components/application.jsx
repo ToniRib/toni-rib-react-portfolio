@@ -1,5 +1,6 @@
 import React from 'react';
 import Biography from './biography/biography';
+import Contact from './contact/contact';
 import Header from './header/header';
 import Portfolio from './portfolio/portfolio';
 
@@ -9,7 +10,8 @@ class Application extends React.Component {
       <div className="container">
         <Header />
         <Biography />
-        <Portfolio />s
+        <Portfolio />
+        <Contact />
       </div>
     );
   }
