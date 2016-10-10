@@ -2,8 +2,8 @@ import Link from '../../../components/contact/link';
 
 describe('<Link />', () => {
   let props = {
-    iconName: 'twitter',
-    link: 'http://www.twitter.com',
+    type: 'twitter',
+    href: 'http://www.twitter.com',
     name: 'exampleaccount'
   };
 
@@ -22,7 +22,7 @@ describe('<Link />', () => {
   it('links to the provided location', () => {
     const wrapper = shallow(<Link {...props} />);
 
-    expect(wrapper.find('a')).to.have.attr('href', props.link);
+    expect(wrapper.find('a')).to.have.attr('href', props.href);
   });
 
   it('contains the name as the text', () => {

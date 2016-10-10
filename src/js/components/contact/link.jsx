@@ -1,19 +1,19 @@
 import React from 'react';
 
 const propTypes = {
-  iconName: React.PropTypes.string.isRequired,
-  link: React.PropTypes.string.isRequired,
+  type: React.PropTypes.string.isRequired,
+  href: React.PropTypes.string.isRequired,
   name: React.PropTypes.string.isRequired
 };
 
 const Link = class extends React.Component {
   render () {
-    const classes = 'zocial-' + this.props.iconName + ' contact-link';
+    const classes = 'zocial-' + this.props.type + ' contact-link';
 
     return (
       <li>
         <a className={classes}
-           href={this.props.link}>
+           href={this.props.href}>
           {this.props.name}
         </a>
       </li>
