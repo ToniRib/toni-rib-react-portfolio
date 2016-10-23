@@ -9,7 +9,7 @@ describe('<Contact />', () => {
     expect(wrapper).to.have.tagName('article');
   });
 
-  it('includes a section title with the name Portfolio', () => {
+  it('includes a section title with the name Contact', () => {
     const wrapper = shallow(<Contact />);
 
     expect(wrapper).to.contain(<SectionTitle name='Contact' id='contact' />)
