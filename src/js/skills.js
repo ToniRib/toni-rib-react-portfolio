@@ -16,16 +16,20 @@ const skills = [
     id: 4
   },
   {
-    name: 'JavaScript',
+    name: 'PostgreSQL',
     id: 5
   },
   {
-    name: 'ReactJS',
+    name: 'JavaScript',
     id: 6
   },
   {
-    name: 'jQuery',
+    name: 'ReactJS',
     id: 7
+  },
+  {
+    name: 'jQuery',
+    id: 8
   }
 ];
 
